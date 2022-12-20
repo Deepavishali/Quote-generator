@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin-top: 20px;
+background-image: url(https://media.istockphoto.com/id/1305035773/photo/neon-lighting-glowing-speech-bubble-on-black-brick-wall.jpg?b=1&s=170667a&w=0&k=20&c=ETrLwidRsxIpgjW6bNuHAwEBL2hbkk7VwqoC4vi79N4=);
+background-repeat: no-repeat;
+background-size:100% 100%;
+background-size:cover; 
+} 
+.container{
+width: 450px;
+background:none;
+padding: 3.5em 2.5em;
+box-shadow: 0 0 50px 10px rgb(231, 231, 219);
+color: white;
+position: relative;
+display: flex;
+align-items: center;
+flex-direction: column;
+font-weight: bolder;
+}
+.container .author{
+margin-top: 1em;
+color:antiquewhite;
+margin-right: -250px;
+}
+.btn{
+width: 150px;
+height: 40px;
+position: absolute;
+bottom: -10%;
+background: linear-gradient(to right, #e2eeec, #d1edf5);
+color: rgb(7, 7, 7);
+border:none;
+cursor: pointer;
+font-size: 1.3em;
+}
